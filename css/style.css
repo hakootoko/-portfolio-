@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  color: #333;
+}
+
+/* header */
+
+#container {
+  background-color: white;
+  height: 50px;
+  list-style-type: none;
+}
+
+header menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* CityLab */
+
+#cl {
+  display: flex;
+  text-align: left;
+  float: left;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+#city {
+  color: rgb(2, 154, 226);
+}
+
+#lab {
+  color: rgb(48, 208, 237);
+}
+
+/* 左のあいつら */
+
+#container menu {
+  text-align: right;
+  padding-top: 12px;
+}
+
+#container menu li {
+  display: inline;
+  margin-left: 50px;
+  font-size: 10px;
+  /* margin-top: 90px;
+    margin-bottom: 20px; */
+}
+
+/* お問い合わせ */
+#otoi {
+  color: white;
+  background-color: rgb(48, 208, 237);
+  padding: 20px 37px 17px 37px;
+  margin-left: 5px;
+}
+
+/* nakami */
+
+#nakami {
+  background-color: rgb(144, 213, 226);
+  height: 600px;
+  width: 100%;
+  /* display: table-cell;
+    vertical-align: middle; */
+  position: relative;
+}
+
+/* city specialist */
+
+#nakami div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.C {
+  /* margin-block-start: 0;
+    margin-block-end: 0; */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: -10px;
+  color: white;
+  text-align: center;
+  font-family: serif;
+  font-size: 80px;
+}
+
+#houhu {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: white;
+  text-align: center;
+}
+
+/* NEWS */
+
+#nakami2 {
+  height: 200px;
+  background-color: rgb(237, 252, 255);
+  padding-top: 60px;
+}
+
+#News {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1050px;
+}
+
+/*  NEWSの中身*/
+
+/* hidari */
+#N {
+  font-size: 45px;
+  margin: 0;
+  font-weight: bold;
+  color: rgb(1, 155, 223);
+}
+
+#itirann {
+  margin: 0;
+  font-size: 10px;
+}
+
+/* migi */
+#kiji {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.hoge {
+  background-color: rgb(1, 155, 223);
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding: 1px 20px 1px 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 4px;
+  color: white;
+}
+
+.kasen {
+  border-bottom: rgb(147, 222, 255) 1px solid;
+  padding-bottom: 6px;
+}
+
+/* service */
+
+#service {
+  width: 100%;
+}
+
+#service h1 {
+  text-align: center;
+  color: rgb(1, 155, 223);
+  font-weight: bold;
+  font: 40px;
+  margin-bottom: 0;
+}
+
+#service p {
+  text-align: center;
+  color: rgb(20, 159, 224);
+  font-size: 10px;
+  margin-top: 0;
+}
+
+#container2 {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container2 div {
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+}
